@@ -12,10 +12,10 @@ con.connect((err)=> {
 	console.log('Connected')
 
 	// show all data
-	// con.query('select * from cars', (err, result)=> {
-	// 	if(err) throw err
-	// 	console.log("Result: "+JSON.stringify(result));
-	// })
+	con.query('select * from cars', (err, result)=> {
+		if(err) throw err
+		console.log("Result: "+JSON.stringify(result));
+	})
 
 	// insert data
 	// con.query("insert into cars values(10, 'Mazda2', 20000)", (err, result)=>{
@@ -29,8 +29,8 @@ con.connect((err)=> {
 	// 	console.log('Updated Successfully')
 	// })
 
-	con.query("delete from cars where id=10", (err, result)=>{
-		if(err) throw err
-		console.log('Deleted Successfully')
-	})
+	// con.query("delete from cars where id=10", (err, result)=>{
+	// 	if(err) throw err
+	// 	console.log('Deleted Successfully')
+	// })
 })

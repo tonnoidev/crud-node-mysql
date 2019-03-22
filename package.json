@@ -1,0 +1,23 @@
+{
+  "name": "crud-node-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonnoidev/crud-node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonnoidev/crud-node-mysql/issues"
+  },
+  "homepage": "https://github.com/tonnoidev/crud-node-mysql#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
